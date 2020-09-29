@@ -24,7 +24,7 @@
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
     bootstrap_before = "myspacevim#before"
-    vimcompatible = true
+    # vimcompatible = true
     enable_guicolors = true
 
 # Enable autocomplete layer
