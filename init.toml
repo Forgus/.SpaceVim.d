@@ -35,7 +35,7 @@ auto_completion_return_key_behavior = "complete"
 auto_completion_tab_key_behavior = "smart"
 
 [[layers]]
-name = 'lang#lisp'
+name = 'lsp'
 
 [[layers]]
 name = 'shell'
@@ -48,6 +48,9 @@ name = 'lang#python'
 
 [[layers]]
 name = 'format'
+
+[[layers]]
+name = 'lang#markdown'
 
 [[custom_plugins]]
 repo = 'numirias/semshi'
