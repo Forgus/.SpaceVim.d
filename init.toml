@@ -26,12 +26,16 @@
     bootstrap_before = "myspacevim#before"
     # vimcompatible = true
     enable_guicolors = true
+    autocomplete_method = 'coc'
 
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
 auto_completion_return_key_behavior = "complete"
 auto_completion_tab_key_behavior = "smart"
+
+[[layers]]
+name = 'lang#lisp'
 
 [[layers]]
 name = 'shell'
@@ -44,3 +48,7 @@ name = 'lang#python'
 
 [[layers]]
 name = 'format'
+
+[[custom_plugins]]
+repo = 'numirias/semshi'
+merged = false
