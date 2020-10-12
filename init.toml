@@ -26,8 +26,10 @@
     bootstrap_before = "myspacevim#before"
     # vimcompatible = true
     enable_guicolors = true
-    autocomplete_method = 'coc'
+#autocomplete_method = 'coc'
 
+[[layers]]
+name = 'fzf'
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'

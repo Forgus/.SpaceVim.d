@@ -1,5 +1,6 @@
 function! myspacevim#before() abort
-  noremap Q :q<CR>
+let g:coc_disable_startup_warning = 1
+noremap Q :q<CR>
 noremap <C-q> :qa<CR>
 noremap S :w<CR>
 
