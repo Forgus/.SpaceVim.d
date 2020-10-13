@@ -1,5 +1,4 @@
 function! myspacevim#before() abort
-let g:coc_disable_startup_warning = 1
 noremap Q :q<CR>
 noremap <C-q> :qa<CR>
 noremap S :w<CR>
@@ -129,4 +128,8 @@ noremap ` ~
 
 " Adjacent duplicate words
 noremap <LEADER>dw /\(\<\w\+\>\)\_s*\1
+let g:coc_disable_startup_warning = 1
+let g:UltiSnipsExpandTrigger="<c-e>"
+let g:UltiSnipsJumpForwardTrigger="<c-e>"
+let g:UltiSnipsJumpBackwardTrigger="<c-n>"
 endfunction
